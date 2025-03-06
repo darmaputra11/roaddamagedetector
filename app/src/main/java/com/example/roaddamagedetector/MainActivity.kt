@@ -14,6 +14,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             MaterialTheme {
                 Surface {
+                    sase
                     val navController = rememberNavController()
                     NavGraph(navController)
                 }
